@@ -1,3 +1,3 @@
 <h1>MSPACMAM recast as XGBoost</h1>
-<p> The mspacmam_xgboost.ipynb notebook presents a worked example of ML combined with mechanistic modeling, applied to the ocean science domain.</>
+<p> The <em>mspacmam_xgboost.ipynb</em> notebook presents a worked example of ML combined with mechanistic modeling, applied to the ocean science domain.</>
 <p>The XGBoost gradient boosting model was trained on a compilation of ocean state variables to predict marine carbon fluxes. Training data included output from the MSPACMAM (Model of Sinking Particles and Cycling of Marine Aggregated Matter) (see <a href="https://doi.org/10.1029/2021GB007131">Dinauer et al., 2022</a> for more details of the model). Due to spatial autocorrelation, block k-fold cross-validation was used to minimize overfitting during hyperparameter tuning. The trained model performed very well on the test set (R^2 score of 0.99), with the exception of localized model-data misfit in the surface coastal ocean.</p>
